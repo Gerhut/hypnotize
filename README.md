@@ -5,6 +5,7 @@
 [![dependencies Status](https://david-dm.org/Gerhut/hypnotize/status.svg)](https://david-dm.org/Gerhut/hypnotize)
 [![devDependencies Status](https://david-dm.org/Gerhut/hypnotize/dev-status.svg)](https://david-dm.org/Gerhut/hypnotize?type=dev)
 [![JavaScript Style Guide](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/)
+[![Greenkeeper badge](https://badges.greenkeeper.io/Gerhut/hypnotize.svg)](https://greenkeeper.io/)
 
 ![Hypno](https://elite-four.github.io/pokemon-sprites/97.png)
 
