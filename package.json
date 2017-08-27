@@ -8,6 +8,9 @@
     "test": "mocha",
     "posttest": "istanbul cover _mocha"
   },
+  "files": [
+    "index.js"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Gerhut/hypnotize.git"
