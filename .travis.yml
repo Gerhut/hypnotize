@@ -16,5 +16,5 @@ install:
   - npm install
 
 after_success:
-  - npm install --global nyc coveralls
-  - nyc report --reporter=text-lcov | coveralls
+  - npm install --global coveralls
+  - cat ./coverage/lcov.info | coveralls
