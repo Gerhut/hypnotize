@@ -1,6 +1,6 @@
 {
   "name": "hypnotize",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "E2E test node server using nightmare.",
   "main": "index.js",
   "scripts": {
