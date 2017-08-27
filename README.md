@@ -27,11 +27,15 @@ app.get('/info', function (req, res) {
   res.send('<p>Info</p>')
 })
 
-hypnotize(app).goto('/info').evaluate(function () {
-  return document.querySelector('p').innerText
-}).end().then(function (text) {
-  assert.equal(text, 'Info')
-})
+hypnotize(app)
+  .goto('/info')
+  .evaluate(function () {
+    return document.querySelector('p').innerText
+  })
+  .end()
+  .then(function (text) {
+    assert.equal(text, 'Info')
+  })
 ```
 
 ## License
