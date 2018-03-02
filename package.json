@@ -33,6 +33,6 @@
     "standard": "^11.0.0"
   },
   "dependencies": {
-    "nightmare": "^2.10.0"
+    "nightmare": "^3.0.0"
   }
 }
