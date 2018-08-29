@@ -17,7 +17,7 @@ it('should test node server', function () {
     .title()
     .end()
     .then(function (title) {
-      assert.equal(title, 'Fixture')
+      assert.strictEqual(title, 'Fixture')
     })
 })
 
@@ -30,6 +30,6 @@ it('should test node server', function () {
     })
     .end()
     .then(function (length) {
-      assert.equal(length, 4)
+      assert.strictEqual(length, 4)
     })
 })
