@@ -1,11 +1,13 @@
 var createServer = require('http').createServer
-var resolve = require('url').resolve
+const urlResolve = require('url-resolve-browser')
+// url.resolve() deprecated
+// var resolve = require('url').resolve
 
 var Nightmare = require('nightmare')
 
 function getServerURL (server, path) {
   var port = server.address().port
-  var url = resolve(`http://127.0.0.1:${port}`, path)
+  var url = urlResolve(`http://127.0.0.1:${port}`, path)
   return url
 }
 

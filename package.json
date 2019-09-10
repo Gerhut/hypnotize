@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "pretest": "standard",
-    "test": "mocha",
-    "posttest": "istanbul cover _mocha"
+    "test": "mocha"
   },
   "files": [
     "index.js"
@@ -30,9 +29,10 @@
   "devDependencies": {
     "istanbul": "^0.4.5",
     "mocha": "^6.0.0",
-    "standard": "^12.0.0"
+    "standard": "^14.1.0"
   },
   "dependencies": {
-    "nightmare": "^3.0.0"
+    "nightmare": "^3.0.0",
+    "url-resolve-browser": "^1.1.0"
   }
 }
