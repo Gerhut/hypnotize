@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "pretest": "standard",
-    "test": "mocha"
+    "test": "mocha",
+    "posttest": "istanbul cover _mocha"
   },
   "files": [
     "index.js"
