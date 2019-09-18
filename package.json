@@ -33,7 +33,6 @@
     "standard": "^14.1.0"
   },
   "dependencies": {
-    "nightmare": "^3.0.0",
-    "url-resolve-browser": "^1.1.0"
+    "nightmare": "^3.0.0"
   }
 }
