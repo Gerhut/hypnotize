@@ -1,12 +1,12 @@
 var createServer = require('http').createServer
-var resolve = require('url').resolve
+const URL = require('url').URL
 
 var Nightmare = require('nightmare')
 
 function getServerURL (server, path) {
   var port = server.address().port
-  var url = resolve(`http://127.0.0.1:${port}`, path)
-  return url
+  var urlObject = new URL(path, `http://127.0.0.1:${port}`)
+  return urlObject
 }
 
 // function before (func, before) {
